@@ -1,0 +1,8 @@
+#binary representation of next number
+s="11"
+s2=int(s,2)
+print(s2)
+num=s2+1
+if num>=1:
+  #print(bin(num).replace("0b",""))
+  print(bin(num)[2:])
